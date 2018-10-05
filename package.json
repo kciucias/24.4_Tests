@@ -1,0 +1,25 @@
+{
+  "name": "24.4_Tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kciucias/24.4_Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kciucias/24.4_Tests/issues"
+  },
+  "homepage": "https://github.com/kciucias/24.4_Tests#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.1.0"
+  }
+}
